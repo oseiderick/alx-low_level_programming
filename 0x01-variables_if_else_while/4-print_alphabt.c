@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return : 0 Always (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,6 +13,6 @@ int main(void)
 		if (a != 'q' && a != 'e')
 		putchar(a);		
 	}
-	putchar('\n');
+		putchar('\n');
 	return (0);
 }
