@@ -6,13 +6,6 @@
  * Return: Always 0
  * print_number: prints out the numbers individually from passing the values to it 
  */
-void print_number(int n)
-{
-	if (n < 10)
-		putchar('0');
-	putchar(n + '0');
-}
-
 int main(void)
 {
 	for (int i = 0; i < 100; i++)
