@@ -4,6 +4,7 @@
  * print_sign - print sogn of a number
  * @n: number input
  * Return: 1, 0, -1
+ * @a: for the negative number
  */
 int print_sign(int n)
 {
