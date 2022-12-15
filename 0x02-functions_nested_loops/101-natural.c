@@ -5,7 +5,7 @@
  * main - prints sum of multiples of 3 under 1084
  * Return: nothing
  */
-int amin(void)
+int main(void)
 {
 	int sum = 0;
 	int i = 0;
