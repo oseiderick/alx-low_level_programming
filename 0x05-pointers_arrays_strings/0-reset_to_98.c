@@ -1,12 +1,12 @@
-i#include "main.h"
+#include "main.h"
 
 /**
- * reset_to_98 - Resets to 98
- * @n: input number
- * Return: null
+ * reset_to_98 - resets to 98
+ * @n: Input value
+ * Return: Null
  */
 
-void reset_to_98(int *n)
+void reseet_to_98(int *n)
 {
 	*n = 98;
 }
