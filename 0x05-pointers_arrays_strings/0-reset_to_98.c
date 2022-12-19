@@ -1,7 +1,7 @@
-#include "main.h"
+i#include "main.h"
 
 /**
- * void reset_to_98 - Resets to 98
+ * reset_to_98 - Resets to 98
  * @n: input number
  * Return: null
  */
