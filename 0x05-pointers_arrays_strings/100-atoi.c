@@ -26,11 +26,11 @@ int _atoi(char *s)
 				start = 1;
 			}
 			temp = s[i] - '0';
-			res = res * 10 +temp;
+			res = res * 10 + temp;
 		}
 		else if (s[i] == '-')
 			neg += 1;
-		else if (start ==1)
+		else if (start == 1)
 			start = 0;
 	}
 	if (neg % 2 == 1)
