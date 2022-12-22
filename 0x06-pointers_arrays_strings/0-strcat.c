@@ -8,15 +8,24 @@
  * Return: string
  */
 
-char _strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
-	char *str = dest +strlen(dest);
-	
+	char *p = dest;
+
+	/* move p to the end of dest*/
+	while (*p != '\0')
+	{
+		p++;
+	}
+	/* copy src to the end of dest*/
 	while (*src != '\0')
 	{
-		*str++ = src++;
+		*p = *src;
+		p++;
+		src++;
 	}
-	*str = '\0';
+	/* add a terminating null byte to the end iof dest*/
+	*p = '\0';
 
 	return (dest);
 }
