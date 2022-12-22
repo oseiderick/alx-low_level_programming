@@ -3,7 +3,7 @@
 
 /**
  * _strncpy - entry point
- * @*dest: first string
+ * @dest: first string
  * @src: second string
  * @n: string
  * Return: char
@@ -19,5 +19,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[dest_len + i] = src[i];
 		dest[dest_len + i] = '\0';
 	}
-	return (*dest);
+	return (dest);
 }
