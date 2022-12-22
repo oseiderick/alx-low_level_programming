@@ -2,6 +2,7 @@
 
 /**
  * string_toupper - coverts a lowercase alpha to a uppercase alpha
+ * @s: alphabet
  * Return: char
  */
 char *string_toupper(char *s)
