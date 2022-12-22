@@ -11,12 +11,13 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *current = dest + strlen(dest);
+	int i;
+	size_t dest_len = strlen(dest);
 
-	while (*src != '\0' && n--)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		*current++ = *src++;
+		dest[dest_len + i] = src[i];
+		dest[dest_len + i] = '\0';
 	}
-	*current = '\0';
 	return (dest);
 }
