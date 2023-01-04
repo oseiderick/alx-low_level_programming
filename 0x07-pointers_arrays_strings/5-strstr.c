@@ -4,7 +4,7 @@
 /**
  * _strstr - function locate
  * @haystack: pointer to char
- * @neddle: pointer to char
+ * @needle: pointer to char
  * Return: 0
  */
 
